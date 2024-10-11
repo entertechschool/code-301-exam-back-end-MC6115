@@ -28,8 +28,8 @@ app.use((error, req, res, next) => {
 // There are no errors in the code below. Do not make any changes to these lines.
 module.exports = {
   server: app,
-  // start: (port) => {
-  //   console.log('yo');
-  //   app.listen(port, console.log(`Server is up and running on port: ${port}`));
-  // },
+  start: (port) => {
+     console.log('yo');
+     app.listen(port, console.log(`Server is up and running on port: ${port}`));
+  },
 };
